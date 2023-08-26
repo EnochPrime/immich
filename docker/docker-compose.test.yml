@@ -25,7 +25,7 @@ services:
       - immich-test-network
   immich-redis-test:
     container_name: immich-redis-test
-    image: redis:6.2-alpine@sha256:70a7a5b641117670beae0d80658430853896b5ef269ccf00d1827427e3263fa3
+    image: redis:7.2-alpine
     networks:
       - immich-test-network
   immich-database-test:
